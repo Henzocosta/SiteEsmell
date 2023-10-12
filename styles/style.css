@@ -1,0 +1,81 @@
+:root{
+    --fonte-principal: 'Dancing Script', sans-serif;
+    --cor-header: #B6FFFA;
+    --cor-sec: #98E4FF;
+    --cor-preço: #80B3FF;
+    --cor-letra: #687EFF;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Inter&family=Josefin+Sans:wght@400;700&family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+body{
+margin: 0;
+background: var(--cor-header);
+}
+.header__container{
+    display: flex;
+    justify-content: center;
+
+}
+.header__titulo{
+    font-family: var(--fonte-principal);
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--cor-letra);
+}
+.sec__titulo{
+    margin: 1em;
+    font-family: var(--fonte-principal);
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--cor-letra);
+}
+.div__titulo{
+    display: flex;
+    justify-content: space-between;
+}
+.div__image{
+    width: 35%;
+    border-radius: 50%;
+    margin: 1em;
+    border: 3px solid var(--cor-letra);
+}
+.div__disp{
+    display: flex;
+    flex-direction: column;
+}
+.div__texto{
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    color: var(--cor-letra);
+}
+.div__descricao{
+    font-size: 14px;
+    font-family: var(--fonte-principal);
+    font-weight: 300;
+    color: var(--cor-letra);
+}
+.div__valor{
+    margin: 1em;
+    margin-left: auto;
+    background: var(--cor-preço);
+    border-radius: 4px;
+    border: 4px solid var(--cor-sec);
+    color: var(--cor-letra);
+}
+.footer__conteiner{
+    display: flex;
+    justify-content: center;
+}
+.footer__button{
+    font-size: 17px;
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    color: var(--cor-letra);
+    text-decoration: none;
+    border-radius: 0.5em;
+    background: var(--cor-preço);
+    padding: 2em 2em;
+
+}
